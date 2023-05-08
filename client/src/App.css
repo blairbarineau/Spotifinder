@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+.App {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg, rgba(7, 112, 7, 0.7), rgba(35, 215, 96, 0.82) 48%, rgba(233, 236, 231, 0.82));
+}
+
+.auth-form-container, .login-form, .register-form {
+    font-family: 'Tajawal', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0.5rem;
+    }
+}
+.navbar-container {
+    font-family: 'Tajawal', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-family: 'Tajawal', sans-serif;
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+input {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'Tajawal', sans-serif;
+    border: none;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #100303;
+    font-size: 1rem;
+
+}
+
+.link-btn {
+    background: white;
+    color: #100303;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.text {
+    font-family: 'Tajawal', Helvetica,Circular,Nunito, sans-serif !important;
+}
+.MuiAppBar-root {
+    font-family: 'Tajawal', sans-serif;
+    background-image: linear-gradient(79deg, rgba(106, 115, 215, 0.82), rgba(118, 232, 118, 0.7) 48%, #1c6e05);
+    width: 100%;
+    position: sticky;
+
+}
+.nav-link {
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.link-btn {
+    margin-top: 1rem;
+}
+h2 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 3rem;
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(79deg, rgba(76, 87, 210, 0.93), rgba(20, 141, 20, 0.75) 48%, #1c6e05);
+}
+.white-header {
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+}
+.white-font a {
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+.navbar-item {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0 2rem;
+    padding: 0.5rem;
+    max-width: 1200px;
+}
+.nav-text {
+    font-family: 'Tajawal', sans-serif;
+    width: 200px;
+    padding: 0 1rem;
+}
+.MuiContainer-root {
+    width: 100%;
+}

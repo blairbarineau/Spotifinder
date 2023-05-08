@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+    background-size: 100%;
+    background-image: var(--gradient);
+    animation: bg-animation 25s infinite;
+}
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+}
+:root {
+    --gradient:  linear-gradient(79deg, rgba(76, 87, 210, 0.93), rgba(20, 141, 20, 0.75) 48%, #1c6e05);
+
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+}
+
+.content {
+    font-family: 'Tajawal', sans-serif;
+    background: white;
+    width: 70vw;
+    padding: 3em;
+    box-shadow: 0 0 3em rgba(0,0,0,.15);
+}
+
+.title {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0 0 .5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    color: #ee6352;
+    line-height: .8;
+    margin: 0;
+
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+     display: inline-block;
+    background-size: 300%;
+    transition: background-position 1s;
+}
+
+.title:hover {
+    background-position: right;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+.navbar-item {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    max-width: 200px;
+}
+.nav-text {
+    width: 200px;
+    padding: 0 1rem;
+}
+
+.fun {
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+}
+
+.fun:hover {
+    background-position: right;
+}
+@keyframes movingLine {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+.moving-line {
+    animation: movingLine 4s infinite;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}

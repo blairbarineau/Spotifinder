@@ -1,0 +1,9 @@
+{
+  "rds_host": "REDACTED",
+  "rds_port": "REDACTED",
+  "rds_user": "REDACTED",
+  "rds_password" : "REDACTED",
+  "rds_db": "REDACTED",
+  "server_host": "REDACTED",
+  "server_port":"REDACTED"
+}
